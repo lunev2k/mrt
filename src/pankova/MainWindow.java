@@ -7,15 +7,13 @@ import java.awt.event.ActionListener;
 public class MainWindow extends JFrame {
     private JTextField nameTextField;
     private JTextField ageTextField;
-    private JTextField heightTextField;
-    private JTextField weightTextField;
     private JButton dataButton;
     private JButton loadButton;
     private JPanel panel;
     private JLabel nameLabel;
     private JLabel ageLabel;
-    private JLabel heightLabel;
-    private JLabel weightLabel;
+    private JButton calc1Button;
+    private JButton calc2Button;
 
     private DataWindow dataWindow;
 
